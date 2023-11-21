@@ -1,2 +1,2 @@
 # BIMM143
-Class done at UC San Diego
+Class done at UC San Diego.
