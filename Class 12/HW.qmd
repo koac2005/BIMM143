@@ -1,0 +1,35 @@
+---
+title: "HWWk7"
+author: "A17576411"
+format: pdf
+---
+>Q13: Read this file into R and determine the sample size for each genotype and their
+corresponding median expression levels for each of these genotypes.
+
+##A: sample size:
+A|A = 108, A|G = 283, G|G = 121
+medians:
+A|A = 31.2, A|G = 25.06, G|G = 20.07
+
+```{r}
+data = read.table("rs8067378_ENSG00000172057.6.txt")
+head(data)
+```
+```{r}
+summary(data)
+sampsize <- table(data$geno)
+print(sampsize)
+```
+
+```{r}
+median <- tapply(data$exp,data$geno,median)
+print(median)
+```
+>Q14: Generate a boxplot with a box per genotype, what could you infer from the relative
+expression value between A/A and G/G displayed in this plot? Does the SNP effect the
+expression of ORMDL3?
+
+A: From the boxplot, it appears that there is less expression of G|G relative to A|A. Since there is this drop in expression between A|A and G|G, it's obvious that any SNPS will decrease the expression of the gene.
+```{r}
+bp <- boxplot(exp ~ geno, data=data, main = "Boxplot")
+```
