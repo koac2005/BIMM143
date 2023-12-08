@@ -12,7 +12,7 @@ class 7: [Introduction to machine learning for Bioinformatics](https://github.co
 class 8: [Unsupervised Learning Mini-Project](https://github.com/koac2005/BIMM143/blob/main/Class_8/Class8.md)
 class 9: [Halloween Candy Mini-Project](https://github.com/koac2005/BIMM143/blob/main/Class-10/Class10.md)
 class 10: [Structural Bioinformatics (pt1)](https://github.com/koac2005/BIMM143/blob/main/class_09/class9.md)
-class 11: [Structural Bioinformatics (pt2. Focus on new AlphaFold2)]()
+class 11: [Structural Bioinformatics (pt2. Focus on new AlphaFold2)](https://github.com/koac2005/BIMM143/blob/main/class11/Class_11.qmd)
 class 12: [Genome informatics](https://github.com/koac2005/BIMM143/blob/main/qmds/Lab12.pdf)
 class 13: [Transcriptomics and the analysis of RNA-Seq data](https://github.com/koac2005/BIMM143/blob/main/Class_13/Class13.md)
 class 14: [RNA-Seq analysis mini-project](https://github.com/koac2005/BIMM143/blob/main/Class_14/Class14.qmd)
